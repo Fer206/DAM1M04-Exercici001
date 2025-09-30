@@ -1,0 +1,57 @@
+/* Estil per a tots els paràgrafs /
+p {
+    color: green;
+}
+
+/ Estil per ID /
+#titol {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+/ Estils per classes /
+.text-important {
+    color: red;
+    font-weight: bold;
+}
+
+.vermell {
+    color: red;
+}
+
+.gran {
+    font-size: 24px;
+}
+
+.negreta {
+    font-weight: bold;
+}
+
+.subratllat {
+    text-decoration: underline;
+}
+
+.verd {
+    color: green;
+}
+
+.blau {
+    color: blue;
+}
+
+/ Pseudoclasse hover /
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/ Pseudoelements */
+p::before {
+    content: "👉 ";
+    color: blue;
+}
+
+p::after {
+    content: " ✔";
+    color: green;
+}
